@@ -44,9 +44,9 @@ router.get('/author/:author/title/:title', function(req, res){
 
       });
 
-      if (!found){
-        res.send("No Record Found!");
-      }
+      // if (!found){
+      //   res.send("No Record Found!");
+      // }
 
     }else{
       console.log("Error : " + err);
